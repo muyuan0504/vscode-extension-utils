@@ -1,0 +1,20 @@
+{
+  "name": "vscode-extension-utils",
+  "version": "1.0.0",
+  "description": "vscode extension",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muyuan0504/vscode-extension-utils.git"
+  },
+  "keywords": [],
+  "author": "AidenPeng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muyuan0504/vscode-extension-utils/issues"
+  },
+  "homepage": "https://github.com/muyuan0504/vscode-extension-utils#readme"
+}

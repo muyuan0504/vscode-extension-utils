@@ -1,0 +1,61 @@
+{
+	/** js相关 */
+	"forloop": {
+		"prefix": "forloop",
+		"body": [
+			"for (let i = 0; i < len; i++) {",
+			"    return;",
+			"}",
+			""
+		],
+		"description": "for 循环固定代码"
+	},
+	/** css相关 */
+	"cssflex": {
+		"prefix": "cssFlex",
+		"body": [
+			".flex-box {",
+			"    display: flex;",
+			"    align-items: center;",
+			"    justify-content: center;",
+			"}"
+		],
+		"description": "css flex布局"
+	},
+	"hidenText": {
+		"prefix": "hidenTextOneline",
+		"body": [
+			"overflow: hidden;",
+			"white-space: nowrap;",
+			"text-overflow: ellipsis;"
+		],
+		"description": "超出一行文本隐藏"
+	},
+	"hidenTextMore": {
+		"prefix": "hidenTextMore",
+		"body": [
+			"overflow: hidden;",
+			"word-break: break-all;",
+			"text-overflow: ellipsis;",
+			"display: -webkit-box;",
+			"-webkit-box-orient: vertical;",
+			"-webkit-line-clamp: 2; /* 这里是超出几行省略 */"
+		],
+		"description": "超出多行文本隐藏"
+	},
+	/** 微信小程序 - uniapp 相关 */
+	"wxview": {
+		"prefix": "wxview",
+		"body": [
+			"<view><\/view>"
+		],
+		"description": "微信小程序 view标签"
+	},
+	"wximg": {
+		"prefix": "wximg",
+		"body": [
+			"<image src=\"\" mode=\"scaleToFill\" lazy-load show-menu-by-longpress />"
+		],
+		"description": "微信小程序 image标签"
+	}
+}
